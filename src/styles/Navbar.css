@@ -1,0 +1,58 @@
+.Nav_Container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 10px;
+    border-bottom: rgb(55, 223, 125) solid 5px;
+    align-items: center;
+}
+.Nav_Container img{
+    width: 40px;
+}
+.Nav_Container input{
+    text-align: center;
+}
+.Nav_search{
+    border-radius: 5px;
+    ;
+
+}
+.Nav_Inner{
+    display: flex;
+    gap: 20px;
+
+}
+.Nav_Inner a{
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    color: #000;
+    display: none;
+}
+.Nav_Inner a:hover{
+    color: rgb(55, 223, 125);
+}
+.Nav_Inner_Menu{
+    cursor: pointer;
+}
+.Account{
+    position: relative;
+}
+.Account .Account_inner{
+    position :absolute;
+    display: none;
+}
+.Account:hover .Account_inner{
+    display: block;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .Nav_Inner a{
+        display: block;
+    }
+    .Nav_Inner_Menu{
+        display: none;
+    }
+}

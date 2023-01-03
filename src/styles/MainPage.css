@@ -1,0 +1,29 @@
+.Main_Cont{
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    
+}
+.Main_Cont_Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.Main_Cont_Grid_Lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .Main_Cont_Grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .Main_Cont_Grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,47 @@
+.Container{
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.Details_Upper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.Details_Upper img{
+    width: 250px;
+    /* height: 250px; */
+    border-radius: 10px;
+    
+}
+.Details_Upper .Details_Info{
+    margin-left: 30px;
+    /* background-color: aquamarine; */
+}
+.Details_Upper .Details_Info button{
+    padding: 10px;
+    border: 1px solid rgb(55, 223, 125);
+    border-radius: 10px;
+    margin: 20px 0 10px 5px;
+    font-size: medium;
+}
+.Details_Upper .Details_Info button:hover{
+    background-color: rgb(55, 223, 125);
+    color: white;
+}
+
+.Details_Lower{
+    padding: 5px;
+    font-size: medium;
+}
+
+@media screen and (min-width: 768px){
+    .Details_Upper{
+        flex-direction: row;
+        
+    }
+    
+}
+
+
