@@ -6,7 +6,7 @@ import '../styles/Register.css'
 const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const { user, logIn } = UserAuth();
+  const { logIn } = UserAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {

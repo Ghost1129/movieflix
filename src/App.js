@@ -5,7 +5,6 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import MainPage from './pages/MainPage';
 import MovieDetail from './pages/MovieDetail';
-import { createContext, useState } from 'react';
 import { AuthContextProvider } from './context/AuthContext';
 import Protected from './pages/Protected';
 

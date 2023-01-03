@@ -6,8 +6,7 @@ import MenuIcon from '../assets/icons8-menu-rounded-50.png'
 import { UserAuth } from '../context/AuthContext'
 
 const Navbar = () => {
-  const { user, logOut } = UserAuth();
-  const [menu, setMenu] = React.useState(false)
+  const { logOut } = UserAuth();
   const navigate = useNavigate();
   const handleLogOut = async() => {
     try{
