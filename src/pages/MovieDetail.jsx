@@ -13,7 +13,6 @@ const MovieDetail = () => {
 
     useEffect(() => {
         fetchData();
-        
         fetchSummary();
     }, [])
 
